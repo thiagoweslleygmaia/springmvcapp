@@ -1,11 +1,11 @@
-package br.com.springmvc.dao;
+package br.com.springmvc.departamento.dao;
 
 import java.util.List;
 
 import br.com.springmvc.model.Departamento;
 
-public interface DepartamentoDao {
-
+public interface DepartamentoDao  {
+	
 	Departamento buscarDepartamento(Departamento departamento);
 	
 	List<Departamento> listarDepartamentos();

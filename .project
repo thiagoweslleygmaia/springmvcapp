@@ -3,6 +3,9 @@
 	<name>springmvcapp</name>
 	<comment></comment>
 	<projects>
+		<project>springmvccore</project>
+		<project>springmvcdao</project>
+		<project>springmvcweb</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

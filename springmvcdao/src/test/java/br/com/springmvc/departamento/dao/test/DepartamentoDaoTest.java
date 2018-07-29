@@ -1,4 +1,4 @@
-package br.com.springmvc.test;
+package br.com.springmvc.departamento.dao.test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
 import br.com.springmvc.config.ApplicationConfig;
-import br.com.springmvc.dao.DepartamentoDao;
+import br.com.springmvc.departamento.dao.DepartamentoDao;
 import br.com.springmvc.model.Departamento;
 
 @WebAppConfiguration
@@ -25,7 +25,7 @@ import br.com.springmvc.model.Departamento;
 public class DepartamentoDaoTest {
 
 	@Autowired
-	DepartamentoDao departamentoDao;
+	private DepartamentoDao departamentoDao;
 	
 	@Test
 	public void testSuccessBuscarDepartamento(){
